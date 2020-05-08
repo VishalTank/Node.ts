@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "eslint . --ext .ts",
 		"lint-and-fix": "eslint . --ext .ts --fix",
-		"start": "tsc --watch"
+		"start": "nodemon exec"
 	},
 	"repository": {
 		"type": "git",
