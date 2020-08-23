@@ -14,7 +14,6 @@ class App {
 	}
 
 	private log(message: string): void {
-		console.log(message);
 		logger.info(message);
 	}
 }
